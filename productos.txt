@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Pantalon",
+    "categoria": "Indumentaria",
+    "descripcion": "Pantalon Largo",
+    "precio": 120,
+    "id": 1
+  },
+  {
+    "nombre": "Remera",
+    "categoria": "Indumentaria",
+    "descripcion": "Remera Lisa",
+    "precio": 110,
+    "id": 2
+  },
+  {
+    "nombre": "Zapatillas",
+    "categoria": "Indumentaria",
+    "descripcion": "Deportivas",
+    "precio": 160,
+    "id": 3
+  }
+]
