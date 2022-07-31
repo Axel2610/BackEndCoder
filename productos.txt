@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Medias",
+    "categoria": "Indumentaria",
+    "descripcion": "Medias color negro",
+    "precio": "40",
+    "id": 1
+  },
+  {
+    "nombre": "Remera",
+    "categoria": "Indumentaria",
+    "descripcion": "Remera color azul",
+    "precio": "100",
+    "id": 2
+  },
+  {
+    "nombre": "Pantalon Negro",
+    "categoria": "Indumentaria",
+    "descripcion": "Jogging negro",
+    "precio": "150",
+    "id": 3
+  },
+  {
+    "nombre": "Buzo",
+    "categoria": "Indumentaria",
+    "descripcion": "Amarillo",
+    "precio": "108",
+    "id": 4
+  },
+  {
+    "nombre": "Campera",
+    "categoria": "Indumentaria",
+    "descripcion": "Azul",
+    "precio": "210",
+    "id": 5
+  }
+]
