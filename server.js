@@ -3,7 +3,6 @@ const express = require('express');
 const Contenedor = require("./contenedor");
 const app = express();
 const routerProductos = Router();
-const bodyParser = require('body-parser');
 
 const contenedor = new Contenedor('./productos.txt')
 
