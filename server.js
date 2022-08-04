@@ -10,12 +10,11 @@ const contenedor = new Contenedor('./productos.txt')
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('static'))
-app.use(bodyParser.urlencoded({extended: true}))
 
 routerProductos.get('/', async(req,res)=>{
     try {
         const productos = await contenedor.getAll()
-        await res.send(productos)
+        res.send(productos)
     } catch (error) {
         console.log(error)
     }
@@ -32,9 +31,7 @@ routerProductos.get('/cargaProducto', (req,res)=>{
 routerProductos.get('/:id', async(req,res)=>{
     try {
         const {id} = req.params
-        const idProducto = Number(id)
-        let productoRandom = await contenedor.getById(idProducto)
-        await res.send(productoRandom)
+        res.send(await contenedor.getById(id))
     } catch (error) {
         console.log(error)
     }
@@ -46,10 +43,7 @@ routerProductos.post('/',async(req,res)=>{
         const producto = {nombre,categoria,descripcion,precio}
         await contenedor.save(producto)
         res.json({
-            nombre,
-            categoria,
-            descripcion,
-            precio
+            producto
         })
     } catch (error) {
         console.log(error)
@@ -60,16 +54,15 @@ routerProductos.put('/:id', async(req,res)=>{
     try {
         const {id} = req.params
         const {nombre, categoria, descripcion, precio} = req.body
-        const productoId = Number(id)
-        await contenedor.deleteById(productoId)
-        producto = {
+        await contenedor.deleteById(id)
+        const producto = {
             nombre,
             categoria,
             descripcion,
             precio,
-            id : productoId
+            id: id
         }
-        contenedor.savePUT(producto)
+        await contenedor.savePUT(producto)
         
         res.json({
             mensaje: 'OK',
@@ -84,8 +77,7 @@ routerProductos.put('/:id', async(req,res)=>{
 routerProductos.delete('/:id', async(req,res)=>{
     try {
         const {id} = req.params
-        const productoId = Number(id)
-        contenedor.deleteById(productoId)
+        await contenedor.deleteById(id)
         res.json({
             mensaje: "Producto borrado",
             id

@@ -33,5 +33,19 @@
     "descripcion": "Azul",
     "precio": "210",
     "id": 5
+  },
+  {
+    "nombre": "Gorro",
+    "categoria": "Indumentaria",
+    "descripcion": "De abrigo",
+    "precio": "30",
+    "id": 6
+  },
+  {
+    "nombre": "Bufanda",
+    "categoria": "Indumentaria",
+    "descripcion": "De abrigo",
+    "precio": "50",
+    "id": 7
   }
 ]
