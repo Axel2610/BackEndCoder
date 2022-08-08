@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Medias",
+    "categoria": "Indumentaria",
+    "descripcion": "Medias color negro",
+    "precio": "40",
+    "id": 1,
+    "img": "https://cdn4.iconfinder.com/data/icons/free-line-christmas-icons/24/Xmas_Socks-512.png"
+  },
+  {
+    "nombre": "Remera",
+    "categoria": "Indumentaria",
+    "descripcion": "Remera color azul",
+    "precio": "100",
+    "id": 2,
+    "img": "https://cdn0.iconfinder.com/data/icons/phosphor-thin-vol-4/256/t-shirt-thin-512.png"
+  },
+  {
+    "nombre": "Pantalon Negro",
+    "categoria": "Indumentaria",
+    "descripcion": "Jogging negro",
+    "precio": "150",
+    "id": 3,
+    "img": "https://cdn1.iconfinder.com/data/icons/clothes-outfit-line-shop-aholic/512/Pants-512.png"
+  },
+  {
+    "nombre": "Buzo",
+    "categoria": "Indumentaria",
+    "descripcion": "Amarillo",
+    "precio": "108",
+    "id": 4,
+    "img": "https://cdn4.iconfinder.com/data/icons/clothes-225/24/hoodie-512.png"
+  },
+  {
+    "nombre": "Campera",
+    "categoria": "Indumentaria",
+    "descripcion": "Azul",
+    "precio": "210",
+    "id": 5,
+    "img": "https://cdn1.iconfinder.com/data/icons/clothes-outfit-line-shop-aholic/512/Hooded_top-256.png"
+  },
+  {
+    "nombre": "Zapatillas",
+    "categoria": "Calzado",
+    "descripcion": "Urbanas",
+    "precio": "300",
+    "img": "https://cdn3.iconfinder.com/data/icons/other-icons/48/nike_shoes-256.png",
+    "id": 6
+  }
+]
