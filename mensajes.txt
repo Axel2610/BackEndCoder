@@ -1,0 +1,20 @@
+[
+  {
+    "mensaje": "Hola mundo",
+    "email": "abc@123",
+    "fecha": "Thu Aug 18 2022 11:16:20 GMT-0300 (hora estándar de Argentina)",
+    "id": 1
+  },
+  {
+    "mensaje": "Hola",
+    "email": "123@abc",
+    "fecha": "Thu Aug 18 2022 11:17:14 GMT-0300 (hora estándar de Argentina)",
+    "id": 2
+  },
+  {
+    "mensaje": "Hola mundo",
+    "email": "asd@456",
+    "fecha": "Thu Aug 18 2022 11:19:40 GMT-0300 (hora estándar de Argentina)",
+    "id": 3
+  }
+]
