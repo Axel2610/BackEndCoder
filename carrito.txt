@@ -1,0 +1,70 @@
+[
+  {
+    "productos": [
+      {
+        "nombre": "Pantalon",
+        "descripcion": "Blanca",
+        "precio": "100",
+        "img": "https://cdn3.iconfinder.com/data/icons/summertime-6/512/beach_pants-512.png",
+        "timestamp": 1661209610345,
+        "stock": "12",
+        "codigo": "Pantalon--1661209610345",
+        "id": 2
+      },
+      {
+        "nombre": "Zapatos",
+        "descripcion": "Marron",
+        "precio": "122",
+        "img": "https://cdn3.iconfinder.com/data/icons/other-icons/48/nike_shoes-256.png",
+        "timestamp": 1661209932155,
+        "stock": "1",
+        "codigo": "Zapatos--1661209932155",
+        "id": 4
+      }
+    ],
+    "timestamp": 1661452405929,
+    "id": 1
+  },
+  {
+    "productos": [
+      {
+        "nombre": "Remera",
+        "descripcion": "Blanca",
+        "precio": "100",
+        "img": "https://cdn0.iconfinder.com/data/icons/phosphor-thin-vol-4/256/t-shirt-thin-512.png",
+        "timestamp": 1661209665719,
+        "stock": "12",
+        "codigo": "Remera--1661209665719",
+        "id": 3
+      },
+      {
+        "nombre": "Zapatillas",
+        "descripcion": "Urbana",
+        "precio": "100",
+        "img": "https://cdn3.iconfinder.com/data/icons/other-icons/48/nike_shoes-256.png",
+        "timestamp": 1661209276772,
+        "stock": "12",
+        "codigo": "Zapatillas--1661209276772",
+        "id": 1
+      }
+    ],
+    "timestamp": 1661452828197,
+    "id": 2
+  },
+  {
+    "productos": [
+      {
+        "nombre": "Zapatillas",
+        "descripcion": "Urbana",
+        "precio": "100",
+        "img": "https://cdn3.iconfinder.com/data/icons/other-icons/48/nike_shoes-256.png",
+        "timestamp": 1661209276772,
+        "stock": "12",
+        "codigo": "Zapatillas--1661209276772",
+        "id": 1
+      }
+    ],
+    "timestamp": 1661460179977,
+    "id": 3
+  }
+]
