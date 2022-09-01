@@ -211,9 +211,14 @@ routerCarrito.delete('/:id/:idProd', async(req,res)=>{
 
 
 
-
 app.use('/api/productos', routerProductos)
 app.use('/api/carrito', routerCarrito)
+
+app.get('*',(req, res)=>{
+    const metodo = req.method
+    const ruta = req.url
+    res.send({"error": -2, "descripcion": `ruta ${ruta}`, "método": `'${metodo}' no implementada`});
+})
 
 const PORT = 8080
 app.listen(PORT,()=>{
